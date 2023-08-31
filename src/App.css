@@ -27,6 +27,80 @@
 .App-link {
   color: #61dafb;
 }
+.search {
+  display: block;
+  align-items: center;
+  margin: 200px 350px;
+  background-color: rgb(112, 168, 149);
+  max-width: 600px;
+}
+form {
+  margin-top: 10px;
+  /* display: flex;
+  justify-content: center; */
+  /* flex-direction: column; */
+  background-color: rgb(95, 139, 125);
+}
+/* ... Your other CSS rules ... */
+.search-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input input {
+  width: 100%;
+  max-width: 520px;
+  padding: 8px 2px;
+  font-size: 20px;
+}
+
+.search-input button {
+  width: 100%;
+  max-width: 80px;
+  padding: 8px 2px;
+  background-color: #282c34;
+  color: #f5f5f5;
+  font-size: 20px;
+}
+
+.weekly-weather {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the content vertically */
+  font-size: 40px;
+}
+.weather-description {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+.weather-description ul {
+  text-align: left;
+}
+.weather-description li {
+  list-style: none;
+  font-size: 20px;
+  color: white;
+}
+.col {
+  flex: 1; /* Allow columns to take equal space within the row */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+}
+.weekly-icons {
+  height: 80px !important;
+  width: 80px !important;
+}
+p {
+  color: #f5f5f5;
+  font-size: 20px;
+}
 
 @keyframes App-logo-spin {
   from {
