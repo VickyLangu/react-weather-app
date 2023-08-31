@@ -141,6 +141,12 @@ function Weather() {
             </div>
           </div>
         </div>
+        <div className="Footer-text">
+          <a href="https://github.com/VickyLangu/react-weather-app">
+            Open-source code,
+          </a>
+          <h4>Langu Mathonsi</h4>
+        </div>
       </form>
     </div>
   );
