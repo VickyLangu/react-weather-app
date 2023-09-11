@@ -59,9 +59,6 @@ function Weather() {
             <li>Humadity: 40 </li>
             <li>Wind: 5km/h</li>
           </ul>
-
-          {/* <span id="humidity"></span> <br />
-          <span id="wind"></span> */}
         </div>
         <div className="weekly-weather">
           <div className="col">
@@ -91,7 +88,6 @@ function Weather() {
               />{" "}
               <br />
               <span className="max-temperature">22</span>
-              {/* <span className="min-temperature">6</span> */}
             </div>
           </div>
           <div className="col">
